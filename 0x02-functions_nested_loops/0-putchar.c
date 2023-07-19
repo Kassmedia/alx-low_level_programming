@@ -4,6 +4,7 @@
  *
  * Return: 0 Always
  */
+int _putchar(char c)
 int main(void)
 {
 	_putchar('_');
@@ -16,4 +17,7 @@ int main(void)
 	_putchar('r');
 	return (0);
 }
-
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
