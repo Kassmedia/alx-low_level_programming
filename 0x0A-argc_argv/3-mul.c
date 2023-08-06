@@ -18,13 +18,13 @@ int main(int argc, char *argv[])
             return (1);
     }
 
-    else
-    {
+    
+    
     int a = atoi(argv[1]);
     int b = atoi(argv[2]);
     mul = a * b;
     printf("%d\n", mul);  
-    }
+    
 
     return (0);
 }
