@@ -5,7 +5,6 @@
  * @b: number of bytes
  * Return: pointer string
  */
-
 void *malloc_checked(unsigned int b)
 {
 	void *c;
@@ -14,5 +13,5 @@ void *malloc_checked(unsigned int b)
 	if (c == NULL)
 		exit(98);
 
-	return(c);
+	return (c);
 }
