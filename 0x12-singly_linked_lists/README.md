@@ -1,1 +1,0 @@
-Singly linked Lists tasks
