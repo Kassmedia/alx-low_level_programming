@@ -1,1 +1,0 @@
-Static library tasl alx
