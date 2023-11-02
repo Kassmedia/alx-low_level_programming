@@ -6,15 +6,14 @@
  * @b: allocated memory
  *
  * Return: a pointer to the allocated memory
- */
+*/
 void *malloc_checked(unsigned int b)
 {
-    int *m = NULL;
+	void *i;
 
-    m = malloc(sizeof(*m) * b);
-    if (m == NULL) {
-        exit(98);
-    }
+	i = malloc(b);
+	if (i == NULL)
+		exit(98);
+	return (i);
 
-    return m;
 }
