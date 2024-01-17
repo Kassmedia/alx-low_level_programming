@@ -1,1 +1,0 @@
-cc -FPIC =shared -o 100-operations.so 100-operations.c
