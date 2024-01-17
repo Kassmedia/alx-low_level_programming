@@ -20,7 +20,7 @@ int div(int a, int b)
 	return (a / b);
 }
 
-int mods(int a, int b) 
+int mod(int a, int b) 
 {
 	return (a % b);
 }
